@@ -1,0 +1,477 @@
+<!doctype html>
+<html lang="zh-cn">
+
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
+    <title>SchemaCool官网 - 网页一键唤起常用APP的开源JS库</title>
+    <script src="js/index.js"></script>
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/index.css" type="text/css" />
+</head>
+
+<body>
+    <div class="head">
+        <div class="head-main">
+            <div class="logo"></div>
+            <div class="head-tabs">
+                <div class="head-tab">文档</div>
+                <div class="head-tab">演示</div>
+                <div class="head-tab">支持</div>
+                <div class="head-tab">教程</div>
+                <div class="head-tab">更新</div>
+                <div class="head-tab">赞助</div>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="main-show">Schema.Cool</div>
+        <div class="main-slogan">网页一键唤起常用APP的开源JS库</div>
+        <div class="main-btns">
+            <div class="main-btn">快速开始</div>
+            <div class="main-btn">下载JS</div>
+            <div class="git-btn">
+                <div class="main-btn-git git-btn-text">Git地址</div>
+                <div class="main-btn-git git-btn-gitee">Gitee</div>
+                <div class="main-btn-git">Github(需翻墙)</div>
+            </div>
+        </div>
+        <div class="main-mouse">
+            <div class="main-mouse-tip"></div>
+        </div>
+    </div>
+
+    <div class="box-height"></div>
+
+    <div class="show">
+        <div class="big-title">百闻不如一见</div>
+        <div class="show-main">
+            <div class="show-box">
+                <div class="show-box-left">
+
+                    <div class="show-box-app-hover">
+                        <div class="app-icon sms"></div>
+                        <div class="app-title">短信</div>
+                    </div>
+
+                    <div class="show-box-app">
+                        <div class="app-icon phone"></div>
+                        <div class="app-title">电话</div>
+                    </div>
+
+                    <div class="show-box-app">
+                        <div class="app-icon wechat"></div>
+                        <div class="app-title">微信</div>
+                    </div>
+
+                    <div class="show-box-app">
+                        <div class="app-icon taobao"></div>
+                        <div class="app-title">淘宝</div>
+                    </div>
+
+                    <div class="show-box-app">
+                        <div class="app-icon douyin"></div>
+                        <div class="app-title">抖音</div>
+                    </div>
+
+                    <div class="show-box-app">
+                        <div class="app-icon zhifubao"></div>
+                        <div class="app-title">支付宝</div>
+                    </div>
+
+                    <div class="show-box-app">
+                        <div class="app-icon qq"></div>
+                        <div class="app-title">QQ</div>
+                    </div>
+
+                    <div class="show-box-app">
+                        <div class="app-icon pinduoduo"></div>
+                        <div class="app-title">拼多多</div>
+                    </div>
+
+                    <div class="show-box-app">
+                        <div class="app-icon wechat"></div>
+                        <div class="app-title">企业微信</div>
+                    </div>
+
+                    <div class="show-box-app">
+                        <div class="app-icon kuaishou"></div>
+                        <div class="app-title">快手</div>
+                    </div>
+
+                    <div class="show-box-app">
+                        <div class="app-icon meituan"></div>
+                        <div class="app-title">美团</div>
+                    </div>
+
+                    <div class="show-box-app">
+                        <div class="app-icon eleme"></div>
+                        <div class="app-title">饿了么</div>
+                    </div>
+
+                    <div class="show-box-app">
+                        <div class="app-icon meituanwaimai"></div>
+                        <div class="app-title">美团外卖</div>
+                    </div>
+                </div>
+
+                <div class="show-box-right">
+
+                    <div class="show-box-way">
+                        <div class="way-title">打开短信首页<span class="def-easy">基础</span></div>
+                    </div>
+
+                    <div class="show-box-way">
+                        <div class="way-title">给指定用户发送短信<span class="def-easy">基础</span></div>
+                    </div>
+
+                    <div class="show-box-way">
+                        <div class="way-title">给指定用户发送指定内容短信<span class="def-easy">基础</span></div>
+                    </div>
+
+                    <div class="show-box-way">
+                        <div class="way-title">跳转电话首页<span class="def-easy">基础</span></div>
+                    </div>
+
+                    <div class="show-box-way">
+                        <div class="way-title">向指定号码拨号（不直接呼出）<span class="def-easy">基础</span></div>
+                    </div>
+
+                    <div class="show-box-way">
+                        <div class="way-title">打开微信首页<span class="def-easy">基础</span></div>
+                    </div>
+
+                    <div class="show-box-way">
+                        <div class="way-title">唤起微信小程序<span class="def-easy">基础</span></div>
+                    </div>
+
+                    <div class="show-box-way">
+                        <div class="way-title">复制微信号跳转微信<span class="def-hard">场景</span></div>
+                    </div>
+
+                    <div class="show-box-way">
+                        <div class="way-title">下载群二维码跳转微信<span class="def-hard">场景</span></div>
+                    </div>
+
+                    <div class="show-box-way">
+                        <div class="way-title">打开淘宝首页<span class="def-easy">基础</span></div>
+                    </div>
+
+                    <div class="show-box-way">
+                        <div class="way-title">打开任意淘系页面<span class="def-easy">基础</span></div>
+                    </div>
+
+                    <div class="show-box-way">
+                        <div class="way-title">打开淘宝验号页面<span class="def-hard">场景</span></div>
+                    </div>
+
+                    <div class="show-box-way">
+                        <div class="way-title">打开支付宝APP<span class="def-easy">基础</span></div>
+                    </div>
+
+                    <div class="show-box-way">
+                        <div class="way-title">打开收款<span class="def-easy">基础</span></div>
+                    </div>
+
+                    <div class="show-box-way">
+                        <div class="way-title">打开AA收款<span class="def-easy">基础</span></div>
+                    </div>
+
+                    <div class="show-box-way">
+                        <div class="way-title">打开付款<span class="def-easy">基础</span></div>
+                    </div>
+
+                    <div class="show-box-way">
+                        <div class="way-title">打开转账<span class="def-easy">基础</span></div>
+                    </div>
+
+                    <div class="show-box-way">
+                        <div class="way-title">打开二维码扫一扫<span class="def-easy">基础</span></div>
+                    </div>
+
+                    <div class="show-box-way">
+                        <div class="way-title">打开乘车码<span class="def-easy">基础</span></div>
+                    </div>
+
+                    <div class="show-box-way">
+                        <div class="way-title">打开蚂蚁森林<span class="def-easy">基础</span></div>
+                    </div>
+
+                    <div class="show-box-way">
+                        <div class="way-title">打开记账<span class="def-easy">基础</span></div>
+                    </div>
+
+                    <div class="show-box-way">
+                        <div class="way-title">打开股票<span class="def-easy">基础</span></div>
+                    </div>
+
+                    <div class="show-box-way">
+                        <div class="way-title">打开任意链接<span class="def-easy">基础</span></div>
+                    </div>
+
+                    <div class="show-box-way">
+                        <div class="way-title">直接唤起个人收款页面<span class="def-hard">场景</span></div>
+                    </div>
+
+                    <div class="show-box-way">
+                        <div class="way-title">直接跳转用户页面<span class="def-hard">场景</span></div>
+                    </div>
+
+                    <div class="show-box-way">
+                        <div class="way-title">跳转支付宝小程序<span class="def-hard">场景</span></div>
+                    </div>
+
+                    <div class="show-box-way">
+                        <div class="way-title">打开抖音首页<span class="def-easy">基础</span></div>
+                    </div>
+
+                    <div class="show-box-way">
+                        <div class="way-title">打开抖音视频<span class="def-easy">基础</span></div>
+                    </div>
+
+                    <div class="show-box-way">
+                        <div class="way-title">打开抖音用户页面<span class="def-easy">基础</span></div>
+                    </div>
+
+                    <div class="show-box-way">
+                        <div class="way-title">打开抖音小程序<span class="def-easy">基础</span></div>
+                    </div>
+
+                    <div class="show-box-way">
+                        <div class="way-title">打开抖音直播<span class="def-easy">基础</span></div>
+                    </div>
+
+                    <div class="show-box-way">
+                        <div class="way-title">打开QQ首页<span class="def-easy">基础</span></div>
+                    </div>
+
+                    <div class="show-box-way">
+                        <div class="way-title">跳转指定账号QQ名片
+                            <span class="def-easy">基础</span>
+                            <span class="def-easy">支持PC</span>
+                        </div>
+                    </div>
+
+                    <div class="show-box-way">
+                        <div class="way-title">跳转QQ加群
+                            <span class="def-easy">基础</span>
+                            <span class="def-easy">支持PC</span>
+                        </div>
+                    </div>
+
+                    <div class="show-box-way">
+                        <div class="way-title">打开拼多多首页
+                            <span class="def-easy">基础</span>
+                            <span class="def-wxgo">支持微信内跳转</span>
+                        </div>
+                    </div>
+
+                    <div class="show-box-way">
+                        <div class="way-title">打开拼多多任意链接<span class="def-easy">基础</span></div>
+                    </div>
+
+                    <div class="show-box-way">
+                        <div class="way-title">复制口令后打开拼多多<span class="def-hard">场景</span></div>
+                    </div>
+
+                    <div class="show-box-way">
+                        <div class="way-title">打开企业微信首页
+                            <span class="def-easy">基础</span>
+                            <span class="def-waring">存在兼容问题</span>
+                        </div>
+                    </div>
+
+                    <div class="show-box-way">
+                        <div class="way-title">打开快手首页<span class="def-easy">基础</span></div>
+                    </div>
+
+                    <div class="show-box-way">
+                        <div class="way-title">打开快手用户页<span class="def-easy">基础</span></div>
+                    </div>
+
+                    <div class="show-box-way">
+                        <div class="way-title">打开快手视频页<span class="def-easy">基础</span></div>
+                    </div>
+
+                    <div class="show-box-way">
+                        <div class="way-title">打开快手小店页<span class="def-easy">基础</span></div>
+                    </div>
+
+                    <div class="show-box-way">
+                        <div class="way-title">复制口令后打开快手<span class="def-hard">场景</span></div>
+                    </div>
+
+                    <div class="show-box-way">
+                        <div class="way-title">打开饿了么首页<span class="def-easy">基础</span></div>
+                    </div>
+
+                    <div class="show-box-way">
+                        <div class="way-title">打开饿了么店铺页<span class="def-easy">基础</span></div>
+                    </div>
+
+                    <div class="show-box-way">
+                        <div class="way-title">复制口令后打开饿了么<span class="def-hard">场景</span></div>
+                    </div>
+
+                    <div class="show-box-way">
+                        <div class="way-title">打开美团外卖首页<span class="def-easy">基础</span></div>
+                    </div>
+
+                    <div class="show-box-way">
+                        <div class="way-title">打开美团红包页<span class="def-easy">基础</span></div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="show-qrcode">
+                <div class="qrcode"></div>
+                <div class="qrcode-tip">手机扫码查看效果</div>
+                <div class="qrcode-down">下载此演示代码</div>
+            </div>
+        </div>
+    </div>
+    <div class="support">
+        <div class="big-title">完美支持</div>
+        <div class="support-box">
+            <div class="support-hide-left"></div>
+            <div class="support-once-left">
+
+                <div class="support-ico wechat"></div>
+                <div class="support-ico qq"></div>
+                <div class="support-ico zhifubao"></div>
+                <div class="support-ico meituan"></div>
+                <div class="support-ico pinduoduo"></div>
+                <div class="support-ico taobao"></div>
+                <div class="support-ico sms"></div>
+                <div class="support-ico phone"></div>
+                <div class="support-ico eleme"></div>
+                <div class="support-ico meituanwaimai"></div>
+
+                <div class="support-ico wechat"></div>
+                <div class="support-ico qq"></div>
+                <div class="support-ico zhifubao"></div>
+                <div class="support-ico meituan"></div>
+                <div class="support-ico pinduoduo"></div>
+                <div class="support-ico taobao"></div>
+                <div class="support-ico sms"></div>
+                <div class="support-ico phone"></div>
+                <div class="support-ico eleme"></div>
+                <div class="support-ico meituanwaimai"></div>
+
+            </div>
+
+            <div class="support-once-right">
+
+                <div class="support-ico wechat"></div>
+                <div class="support-ico qq"></div>
+                <div class="support-ico zhifubao"></div>
+                <div class="support-ico meituan"></div>
+                <div class="support-ico pinduoduo"></div>
+                <div class="support-ico taobao"></div>
+                <div class="support-ico sms"></div>
+                <div class="support-ico phone"></div>
+                <div class="support-ico eleme"></div>
+                <div class="support-ico meituanwaimai"></div>
+
+                <div class="support-ico wechat"></div>
+                <div class="support-ico qq"></div>
+                <div class="support-ico zhifubao"></div>
+                <div class="support-ico meituan"></div>
+                <div class="support-ico pinduoduo"></div>
+                <div class="support-ico taobao"></div>
+                <div class="support-ico sms"></div>
+                <div class="support-ico phone"></div>
+                <div class="support-ico eleme"></div>
+                <div class="support-ico meituanwaimai"></div>
+
+            </div>
+
+
+            <div class="support-once-left">
+
+                <div class="support-ico wechat"></div>
+                <div class="support-ico qq"></div>
+                <div class="support-ico zhifubao"></div>
+                <div class="support-ico meituan"></div>
+                <div class="support-ico pinduoduo"></div>
+                <div class="support-ico taobao"></div>
+                <div class="support-ico sms"></div>
+                <div class="support-ico phone"></div>
+                <div class="support-ico eleme"></div>
+                <div class="support-ico meituanwaimai"></div>
+
+                <div class="support-ico wechat"></div>
+                <div class="support-ico qq"></div>
+                <div class="support-ico zhifubao"></div>
+                <div class="support-ico meituan"></div>
+                <div class="support-ico pinduoduo"></div>
+                <div class="support-ico taobao"></div>
+                <div class="support-ico sms"></div>
+                <div class="support-ico phone"></div>
+                <div class="support-ico eleme"></div>
+                <div class="support-ico meituanwaimai"></div>
+
+            </div>
+            <div class="support-hide-right"></div>
+        </div>
+    </div>
+    <div class="update">
+        <div class="big-title">更新记录</div>
+        <div class="update-tip">
+            <div class="update-box">
+                <div class="update-left">
+                    <div class="update-verson">1.0.0</div>
+                    <div class="update-time">2021/11/28</div>
+                </div>
+                <div class="update-say">
+                    <p>1. 项目首次发布，提供了常见APP的H5页面唤起功能</p>
+                    <p>2. 提供超多demo，方便小白用户接入</p>
+                    <p>3. 将代码上传多个Git平台，等待好心人star</p>
+                </div>
+                <div class="update-clean"></div>
+            </div>
+        </div>
+    </div>
+    <div class="foot">
+        <div class="foot-main">
+            <div class="foot-left">
+                <div class="foot-logo"></div>
+                <div class="foot-slogan">网页一键唤起常用APP的开源JS库</div>
+                <div class="foot-say foot-red">使用本项目请准守当地法律法规及道德准则，使用过程发生的任何后果开源作者概不负责</div>
+                <div class="foot-say">SchemaCool基于apache2.0开源协议开源授权</div>
+                <div class="foot-say say-unshow">LOGO字体为AiDeep，基于字体开源协议使用</div>
+                <div class="foot-say say-unshow">样机图片由上海图魂网络科技有限公司授权使用</div>
+            </div>
+            <div class="foot-right">
+                <div class="foot-line">
+                    <div class="foot-once">友情链接</div>
+                    <div class="foot-link">WordGo</div>
+                </div>
+
+                <div class="foot-line">
+                    <div class="foot-once">文档</div>
+                    <div class="foot-link">JS库下载</div>
+                    <div class="foot-link">快速入门</div>
+                    <div class="foot-link">高级开发</div>
+                </div>
+
+                <div class="foot-line">
+                    <div class="foot-once">项目</div>
+                    <div class="foot-link">Github</div>
+                    <div class="foot-link">Gitee</div>
+                </div>
+
+                <div class="foot-line">
+                    <div class="foot-once">相关</div>
+                    <div class="foot-link">bug提交</div>
+                    <div class="foot-link">作者主页</div>
+                    <div class="foot-link">打赏一下</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
